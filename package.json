@@ -1,6 +1,7 @@
 {
   "name": "ikun",
   "version": "1.0.0",
+  "packageManager": "pnpm",
   "description": "ikun",
   "license": "MIT",
   "type": "module",
