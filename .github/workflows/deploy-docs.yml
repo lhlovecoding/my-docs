@@ -18,7 +18,7 @@ jobs:
           # submodules: true
 
       - name: 安装 pnpm
-        uses: pnpm/action-setup@latest
+        uses: pnpm/action-setup@v2.2.4
         with:
           run_install: true
 
