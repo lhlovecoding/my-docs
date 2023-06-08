@@ -21,7 +21,7 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: latest
-          run_install: "install --no-frozen-lockfile"
+          run_install: true
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
