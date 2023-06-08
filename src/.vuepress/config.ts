@@ -8,7 +8,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "文档演示",
   description: "vuepress-theme-hope 的文档演示",
-
+  pagePatterns: ['**/[^.~]*.md', '!.vuepress', '!node_modules'],
   theme,
 
   // Enable it with pwa
